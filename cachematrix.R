@@ -2,6 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Creates a data structure containing a matrix
+## and a cache for the inverse as well as getters
+## and setters for the data and the inverse
 
 makeCacheMatrix <- function(x = numeric()) {
   s <- NULL
@@ -18,7 +21,7 @@ makeCacheMatrix <- function(x = numeric()) {
 }
 
 ## Write a short comment describing this function
-## Toma un cache matrix de una estructura de datos y calculas la matrix inversa
+## Toma un cache matrix de una estructura de datos y calcula la matrix inversa
 ## si no está lista lo almacena en cache. 
 
 cacheSolve <- function(x, ...) {

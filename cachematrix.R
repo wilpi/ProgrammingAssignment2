@@ -18,6 +18,8 @@ makeCacheMatrix <- function(x = numeric()) {
 }
 
 ## Write a short comment describing this function
+## Toma un cache matrix de una estructura de datos y calculas la matrix inversa
+## si no está lista lo almacena en cache. 
 
 cacheSolve <- function(x, ...) {
   s <- x$getsolve()
